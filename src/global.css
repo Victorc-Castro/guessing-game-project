@@ -13,12 +13,10 @@ body {
   background-color: rgba(0, 0, 0, 0.658); /* Cor para desenvolvimento */
 
   font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
 }
 
 input {
   font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
 }
 
 button {
