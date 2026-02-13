@@ -1,10 +1,11 @@
 import styles from "./app.module.css"
 
+import { Tip } from "./components/Tip"
 import { Input } from "./components/Input"
 import { Button } from "./components/Button"
 import { Header } from "./components/Header"
 import { Letter } from "./components/Letter"
-import { Tip } from "./components/Tip"
+import { LettersUsed } from "./components/LettersUsed"
 
 export default function App() {
 
@@ -33,6 +34,8 @@ export default function App() {
           <Input autoFocus maxLength={1} placeholder="?"/>  
           <Button title="Confirmar" />        
         </div>
+
+        <LettersUsed/>
       </main>
     </div>
   )
