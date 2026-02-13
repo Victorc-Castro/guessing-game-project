@@ -1,6 +1,7 @@
 import styles from "./app.module.css"
 
 import { Input } from "./components/Input"
+import { Button } from "./components/Button"
 import { Header } from "./components/Header"
 import { Letter } from "./components/Letter"
 import { Tip } from "./components/Tip"
@@ -28,8 +29,9 @@ export default function App() {
 
         <h4>Palpite</h4>
 
-        <div>
-          <Input autoFocus maxLength={1} placeholder="?"/>          
+        <div className={styles.guess}>
+          <Input autoFocus maxLength={1} placeholder="?"/>  
+          <Button title="Confirmar" />        
         </div>
       </main>
     </div>
