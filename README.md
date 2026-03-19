@@ -38,7 +38,7 @@ In this project, I focused on mastering React fundamentals and creating interact
 
 ├── package-lock.json
 
-├── package.json       # Dependencies and scripts (Vite/React)
+├── package.json      # Dependencies and scripts (Vite/React)
 
 ├── README.md
 
